@@ -1,12 +1,12 @@
 <?php
 
 // Origin.
-const PLUGINS_ORIGIN_PATH = "/var/www/html/wum/wp-content/plugins/";
-const THEMES_ORIGIN_PATH  = "/var/www/html/wum/wp-content/themes/";
+const PLUGINS_ORIGIN_PATH = "";
+const THEMES_ORIGIN_PATH  = "";
 
 // Destiny.
-const PLUGINS_DESTINY_PATH = "/var/www/html/idricagit/wp-content/plugins/";
-const THEMES_DESTINY_PATH  = "/var/www/html/idricagit/wp-content/themes/";
+const PLUGINS_DESTINY_PATH = "";
+const THEMES_DESTINY_PATH  = "";
 
 // Git.
 const DEPLOY_BRANCH = 'stable';
