@@ -110,12 +110,8 @@ final class Colors {
  */
 function check_if_exists_change_in_current_branch(): bool {
     exec( "git diff --quiet", $output, $code );
-
-    if( $code === 0 ) {
-        return false;
-    }
-
-    return true;
+    
+    return $code === 0;
 }
 
 /**
